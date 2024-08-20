@@ -1,0 +1,251 @@
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 100px;
+    margin-bottom: 10rem;
+}
+.contact .tittle h1{
+    font-size: 45px;
+    font-weight: 600;
+    background: linear-gradient(270deg, orange, green);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-section{
+    display: flex;
+    gap: 40px;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-left h1{
+    font-size: 50px;
+    font-weight: 500;
+    background: linear-gradient( #df8908 -5.09%, #b415ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-left p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgb(194, 194, 194);
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+.contact-right label{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(194, 194, 194);
+}
+.contact-right input{
+    border: none;
+    outline: none;
+    width: 500px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #a0a0a0;
+    font-family: "outfit";
+    font-size: 24px;
+}
+.contact-right textarea{
+    width: 500px;
+    border: none;
+    background-color: #a0a0a0;
+    border-radius: 8px;
+    outline: none;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "outfit";
+}
+.contact-submit{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(280deg,#df8908, #b415ff);
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-submit:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.contact-details img{
+    width: 30rem;
+    height: 32rem;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
+@media only screen and (max-width:810px) {
+    .contact{
+        align-items: center;
+        justify-content: center;
+    }
+    .contact .tittle h1{
+        font-size: 35px;
+    }
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-left p{
+        font-size: 18px;
+    }
+
+    
+}
+
+
+@media only screen and (max-width:768px) {
+    .contact{
+        align-items: center;
+        justify-content: center;
+    }
+    .contact .tittle h1{
+        font-size: 35px;
+    }
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-left p{
+        font-size: 18px;
+    }
+    
+}
+@media only screen and (max-width:412px) {
+    .contact{
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-left h1{
+        font-size: 40px;
+    }
+    .contact-left p{
+        width: 100%;
+
+    }
+    .contact-details img{
+        width: 20rem;
+        height: 25rem;
+    }
+    .contact-right input{
+        width: 100%;
+        height: 20px;
+    }
+    .contact-right textarea{
+        width: 100%;
+        height: 10rem;
+    }
+    .contact-right input::placeholder{
+        font-size: 20px;
+    }
+
+    
+}
+@media only screen and (max-width:360px) {
+    .contact .tittle h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .contact-right{
+        width: 90%;
+    }
+    
+}
+
+@media only  screen and (max-width:384px) {
+    .contact-right{
+        width: 90%;
+    }  
+}
+@media only screen and (max-width:375px) {
+    .contact .tittle h1{
+        font-size: 30px;
+        width: 100%;
+    }
+
+    
+}
+@media only screen and (max-width:414px) {
+    .contact{
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-left h1{
+        font-size: 40px;
+    }
+    .contact-left p{
+        width: 100%;
+
+    }
+    .contact-details img{
+        width: 20rem;
+        height: 25rem;
+    }
+    .contact-right input{
+        width: 100%;
+        height: 20px;
+    }
+    .contact-right textarea{
+        width: 100%;
+        height: 10rem;
+    }
+    .contact-right input::placeholder{
+        font-size: 20px;
+    }
+}
+
+@media  only screen and (max-width:390px){
+    .contact-right{
+        width: 90%;
+    } 
+}
+
+@media only screen and (max-width:428px) {
+    .contact{
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-left h1{
+        font-size: 40px;
+    }
+    .contact-left p{
+        width: 100%;
+
+    }
+    .contact-details img{
+        width: 20rem;
+        height: 25rem;
+    }
+    .contact-right input{
+        width: 100%;
+        height: 20px;
+    }
+    .contact-right textarea{
+        width: 100%;
+        height: 10rem;
+    } 
+}
