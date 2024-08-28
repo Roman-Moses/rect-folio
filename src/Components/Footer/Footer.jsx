@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import "./Footer.css"
+import "./Footer.css";
 
 const Footer = () => {
     return(
@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
             <hr/>
             <div className="footer-bottom">
-                <p className="bottom-left">2024 Moses Ouma. All  rights reserved</p>
+                <p className="bottom-left">2024 &copy; Moses Ouma. All  rights reserved</p>
                 <div className="bottom-right">
                     <p>Privacy Policy</p>
                     <p>Terms policy</p>
@@ -30,7 +30,7 @@ const Footer = () => {
 
 
         </div>
-    )
+    );
 }
 
 export default Footer
